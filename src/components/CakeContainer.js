@@ -5,7 +5,7 @@ import { BuyCake, AddCake } from "../redux";
 class CakeContainer extends Component {
   constructor(props) {
     super(props);
-    console.log("Props", this.props);
+    console.log("CakeContainer Props", this.props);
   }
   render() {
     return (
